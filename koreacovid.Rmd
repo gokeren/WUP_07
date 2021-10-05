@@ -41,17 +41,27 @@ with(kRdata, table(Sex, result))
 `
 ```{r}
 barchartGC(~result + Sex,data=kRdata)
+```
+
+The first bar graph shows the frequency of of COVID-19 deaths by the hundreds. In total, around 3200 people were alive and ~100 people died.  It looks like there are more people who do not die from COVID-19, but in the alive group there are more females in comparison to males. In the dead category, there are more dead males in comparison to females.
+
+```{r}
 barchartGC(~result + Sex,data=kRdata, type="percent")
 
 ```
   
 
-The first bar graph shows the frequency of of COVID-19 deaths by the hundreds. It looks like there are more people who do not die from COVID-19. The second bar graph shows the percent of people who died, separated by alive and dead bar graphs. In the second graph, the pink bar is males and light blue shows percent of females who died. According to the second bar graph, it looks like males are dying at higher rates than females in Korea.
+This bar graph shows the percent of people who died, separated by alive and dead bar graphs. In this graph, the pink bar is males and light blue shows percent of females who died. According to the graph, it looks like males are dying at a higher percentage than females in Korea.
 
 
 
   
 ## Numerical results
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
 
 ## Inferential results 
