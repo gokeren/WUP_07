@@ -87,3 +87,5 @@ The Fisher test gives us the odds of dying for males which is 0.031 and the odds
 
 ## Conclusions
 
+In conclusion, the data showed that men were seemingly more likely to die from COVID-19 versus women. We analyzed data from Korea and made a bar chart to show the amounts of deaths separated by gender. We also made a chart to see exact numbers of people who died and were alive separated by sex. We then used a Chi-squared test and a Fisher test to see if there was a difference in death between the sexes. We found that there was 2.3x ratio of death for men, suggestion men are more likely to die from COVID. However, this data was taken in 2020 during the beginning of the COVID-19 pandemic and there was not much information about the novel virus.
+
