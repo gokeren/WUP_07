@@ -73,6 +73,17 @@ $H_0$: There is no difference in the proportion of men dying in comparison to wo
 
 $H_A$: There is a difference in the proportion of men dying compared to the proportion of women.
 
+```{r}
+chisq.test(table1)
+#Next we will do tigerstats chi-squared test
+chisqtestGC(table1)
+#Now we will do Fisher test
+fisher.test(table1)
+```
+
+The Chi-Square test provides with exact values of the amount of deaths. It shows that 1831 females and 1411 males were in the alive group. It also shows that 25 females and 44 males died.
+
+The Fisher test gives us the odds of dying for males which is 0.031 and the odds of female dying is 0.14. This leads to a fatality ratio of 2.3. This means that males are 2.3 times more likely to die from COVID-19 than females.
 
 ## Conclusions
 
