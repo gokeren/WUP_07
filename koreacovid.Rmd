@@ -63,7 +63,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-
+Now we have exact percentages of the experiment. In the alive group 56% percent are female and 44% for males. In the dead group 36% were female and 64% werew male.
 
 ## Inferential results 
 
