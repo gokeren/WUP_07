@@ -51,7 +51,7 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 ```
   
 
-This bar graph shows the percent of people who died, separated by alive and dead bar graphs. In this graph, the pink bar is males and light blue shows percent of females who died. According to the graph, it looks like males are dying at a higher percentage than females in Korea.
+This bar graph shows the percent of people who died, separated by alive and dead bar graphs. In this graph, the pink bar is males and light blue shows percent of females who died. IN the alive group around ~58% were female and 42% were male. In the dead group, ~62% were male and ~38% female. According to the graph, it looks like males are dying at a higher percentage than females in Korea.
 
 
 
@@ -62,6 +62,7 @@ table1 <- xtabs(~result + Sex, data=kRdata)
 rowPerc(table1)
 colPerc(table1)
 ```
+
 
 
 ## Inferential results 
